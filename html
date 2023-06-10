@@ -1,0 +1,17 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="chatbot.css">
+</head>
+<body onload="myfunc1()">
+   
+    <div class="glass" id="glass"> <div class="img1">  <img src="robo_small.gif" alt=""> </div> <h1>Chatbot</h1> <h2>Lets have an little Interaction</h2> <div class="input"> <input type="text" id="userBox" onkeydown="if(event.keyCode == 13){ talk()}" placeholder="  I'm here for you. " /> </div> <p class="aper">Answer apearing here &#9660</p> <p id="chatLog"></p> </div>
+
+    
+<script src="chatbot.js"></script>
+
+</body>
+</html>
