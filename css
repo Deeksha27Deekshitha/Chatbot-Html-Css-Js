@@ -1,0 +1,75 @@
+
+	 *{
+		padding: 0px;
+		margin: 0px;
+		box-sizing: border-box;
+		
+	}
+	
+	.glass{
+		height: 400px;
+		width: 500px;
+		background-color:rgb(69, 68, 68);;
+		margin-left: 370px;
+		margin-top: 120px;
+		border-radius: 20px;
+		opacity: 0;
+		border: 2px solid transparent;
+		box-shadow: 10px 10px 10px rgba(33, 33, 33,0.5);
+		transition: all 3s ease-in;
+	
+
+	}
+	.glass1{
+		opacity: 1;
+	}
+	h1{
+		font-size: 40px;
+		color: white;
+		text-align: center;
+		margin-top: -15px;
+
+	}
+	h2{
+		padding-top: 30px;
+		font-size: 24px;
+		color: rgb(201, 201, 201);
+		text-align: left;
+		text-indent: 50px;
+	}
+	.input input{
+		height: 70px;
+		width: 400px;
+		border-radius: 20px;
+		border: none;
+		margin-top: 50px;
+		margin-left: 40px;
+		text-indent: 40px;
+		font-size: 20px;
+		outline: none;
+		
+	}
+	.input ::placeholder{
+		font-size: 20px;
+			
+	}
+	p{
+		
+		padding-top: 20px;
+		text-indent: 60px;
+		color: rgb(201, 201, 201);
+		font-size: 25px;
+	} 
+	.aper{
+		font-size: 20px;
+		color: rgb(188, 188, 188);
+		margin-left: 80px;
+		padding-top: 30px;
+	}
+	img{
+		height: 150px;
+		width: 200px;
+		margin-top: -110px;
+		margin-left: 150px;
+	
+	}
